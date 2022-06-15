@@ -38,7 +38,7 @@ vertex float4 vertex_main(const VertextIn vertex_in [[stage_in]])
 }
 
 fragment float4 fragment_main() {
-    return float4(1, 0, 0, 1);
+    return float4(0, 0.4, 0.21, 1);
 }
 """
 
@@ -91,3 +91,5 @@ commandBuffer.present(drawable)
 commandBuffer.commit()
 
 PlaygroundPage.current.liveView = view
+
+
